@@ -1,12 +1,1 @@
-# Novel
-Colab code for Novel 
-
-# read Frankenstein file
-with open("/content/frankenstein.txt", errors="surrogateescape") as f:
-  text = f.read()
-
-novel = text.replace("Frankenstein","Mr. Fluffy")
-novel = text.replace("monster","fairy")
-
-with open("/content/frankenstein.txt","w",errors="surrogateescape") as f:
-  f.write(novel)
+This project uses the find and replace method in google colab to rename Frankenstein in the Frankenstein novel to Mr. Fluffy and, the word monster to fairy. Since this is a very dark novel I thought these simply changes would overall change the connotations of the novel and add a bit of humor.
